@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent">
+
+
+<ScrollView android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:padding="5px" android:layout_width="fill_parent"><TableLayout android:id="@+id/TableLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtDownloadedContacts" android:text="Downloaded contacts" android:textSize="17sp" android:textColor="#FFFFFF"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtAddedContacts" android:text="Added contacts" android:textSize="17sp" android:textColor="#FFFFFF"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/listAdded" android:text="ADDED"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Skipped contacts" android:id="@+id/txtSkippedContacts" android:textSize="17sp" android:textColor="#FFFFFF"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SKIPPED" android:id="@+id/listSkipped"></TextView></TableLayout></ScrollView>
+
+
+
+
+
+</LinearLayout>

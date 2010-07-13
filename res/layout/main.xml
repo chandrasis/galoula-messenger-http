@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:background="@drawable/titlebg" android:layout_height="wrap_content"><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="55px" android:layout_marginLeft="10px"><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon" android:layout_margin="5px" android:id="@+id/Logo"></ImageView><TableLayout android:id="@+id/TableLayout03" android:layout_width="wrap_content" android:gravity="center_vertical" android:layout_height="fill_parent"><TextView android:layout_width="fill_parent" android:gravity="center_vertical|center_horizontal" android:text="@string/app_name" android:textSize="15sp" android:singleLine="false" android:layout_height="wrap_content" android:textColor="#FFFFFF"/><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12sp" android:text="@string/version" android:id="@+id/strVersion"></TextView></TableLayout>
+
+
+</TableRow>
+
+</TableLayout><View android:id="@+id/View01" android:layout_height="1px" android:layout_width="fill_parent" android:background="#1c1c1c"></View><View android:id="@+id/View02" android:layout_width="fill_parent" android:layout_height="1px" android:background="#545454"></View>
+<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="10px" android:background="#373737" android:id="@+id/LiveMainTable"><TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Windows Live Messenger" android:textSize="18sp" android:textColor="#ffffff"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/strLastSync" android:text="Last Sync: Never"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Status: Idle" android:id="@+id/strStatus"></TextView>
+
+<com.galoula.messenger.CTProgressView android:layout_width="wrap_content" android:layout_height="4px" android:layout_marginTop="10px" android:id="@+id/LiveProgressBar">
+</com.galoula.messenger.CTProgressView>
+
+</TableLayout><View android:id="@+id/View03" android:layout_width="fill_parent" android:layout_height="1px" android:background="#292929"></View><View android:id="@+id/View04" android:layout_height="1px" android:layout_width="fill_parent" android:background="#545454"></View>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

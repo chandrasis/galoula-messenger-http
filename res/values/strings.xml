@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<string name="app_name">Galoula-Messenger</string>
+
+<string name="version">0</string>
+<string name="license">(none)</string>
+</resources>
